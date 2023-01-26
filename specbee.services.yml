@@ -1,0 +1,4 @@
+services:
+  specbee.services:
+    class: Drupal\specbee\Services\SpecbeeService
+    arguments: ['@config.factory']
