@@ -1,0 +1,6 @@
+<div class="container">
+  {% set date_time =  time|split('-')|join()|replace({"PM": "", "AM": ""}) %}
+  <h1><b>{{ date_time|date('H:i a') }}</b></h1>
+  <div>{{ date_time|date('l,  j F Y') }}</div>
+  <div>Time in {{ city }}, {{ country }}</div>
+</div>

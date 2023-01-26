@@ -21,7 +21,6 @@ class SpecbeeService {
    */
   public function getCurrentTimeFromTimezone() {
     $timezone = $this->specbeeConfig->get('timezone');
-
     $now = new \DateTime('now', new \DateTimeZone($timezone));
     return $now->format('jS M Y - H:i A');
   }

@@ -1,5 +1,5 @@
 name: Specbee
-description: Provides an current time for selected Location.
+description: Provides a current time for selected Location.
 package: Custom Module
 type: module
 core_version_requirement: ^9.2 || ^10

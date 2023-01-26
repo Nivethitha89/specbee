@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function specbee_theme() {
+  return [
+    'specbee_block' => [
+      'variables' => [
+        'time' => NULL,
+        'country' => NULL,
+        'city' => NULL
+      ],
+    ],
+  ];
+}

@@ -2,6 +2,6 @@ specbee.settings:
   path: '/admin/config/specbee/settings'
   defaults:
     _form: '\Drupal\specbee\Form\SpecbeeSettingsForm'
-    _title: 'specbee'
+    _title: 'Specbee Settings'
   requirements:
     _permission: 'administer site configuration'
